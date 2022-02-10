@@ -9,10 +9,10 @@
 <body>
     <header>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/shop">Shop</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/forum">Forum</a></li>
+            <li><a href="{{route('home')}}">Home</a></li>
+            <li><a href="{{route('shop')}}">Shop</a></li>
+            <li><a href="{{route('contact')}}">Contact</a></li>
+            <li><a href="{{route('forum')}}">Forum</a></li>
         </ul>
     </header>
 

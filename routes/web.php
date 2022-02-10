@@ -21,11 +21,11 @@ Route::get('/', function () {
     ];
 
     return view('home',  $data);
-});
+})->name('home');
 
 Route::get('/shop', function () {
     return view('shop');
-});
+})->name('shop');
 
 Route::get('/contact', function () {
 
@@ -33,9 +33,9 @@ Route::get('/contact', function () {
         'name' => ['pippo', 'pluto', 'paperino', 'paperina']
     ];
     return view('contact', $contacts);
-});
+})->name('contact');
 
 Route::get('/forum', function () {
     return view('forum');
-});
+})->name('forum');
 
